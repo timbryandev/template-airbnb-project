@@ -1,0 +1,14 @@
+{
+  "extends": ["airbnb", "prettier"],
+  "plugins": ["prettier"],
+  "rules": {
+    "no-console": "warn",
+    "no-unused-vars": "warn",
+    "no-use-before-define": "warn",
+    "prefer-destructuring": "warn"
+  },
+  "env": {
+    "node": true,
+    "es6": true
+  }
+}
